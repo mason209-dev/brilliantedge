@@ -200,9 +200,9 @@
 
         function downloadCV(event) {
             event.preventDefault();
-            alert('Please upload your CV file and update the href link in the HTML code to point to your CV file.');
+            // alert('Please upload your CV file and update the href link in the HTML code to point to your CV file.');
             // Update this link to your actual CV file path
-            // window.location.href = 'path/to/your/cv.pdf';
+            window.location.href = 'cv.pdf';
         }
 
         // Add scroll effect to navbar
@@ -213,4 +213,5 @@
             } else {
                 nav.style.padding = '1rem 5%';
             }
+
         });
